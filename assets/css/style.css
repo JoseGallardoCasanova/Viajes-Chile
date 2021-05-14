@@ -1,6 +1,9 @@
 /*nav*/
 
-
+.navbar{
+    font-family: "Raleway";
+    font-size: medium;
+}
 
 
 /* quienes somos*/
@@ -32,3 +35,11 @@ p {
     height: 158px
 }
 
+/*footer*/
+
+.icono {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
+    color: #ffffff;
+}

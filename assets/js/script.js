@@ -13,10 +13,10 @@ $(document).ready(function () {
     })
 
     $(window).scroll(function(){
-        if($("#menu").offset().top > 600){
-            $("#menu").addClass("bg-nav");
+        if($("#menu").offset().top > 300){
+            $("#menu").addClass("bg-dark");
         } else {
-            $("#menu").removeClass("bg-nav");
+            $("#menu").removeClass("bg-dark");
         }
     });
 
