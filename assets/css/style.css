@@ -30,14 +30,13 @@ p {
     background-color: black;
 }
 
-.imgCard {
+.card-img-top{
     width: 238px;
-    height: 158px
-}
+    height: 170px;
+   }
 
 .imgModal{
     width: 465px;
-
 }
 
 /*footer*/
