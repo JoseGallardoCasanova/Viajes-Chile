@@ -24,6 +24,16 @@ $(document).ready(function () {
         $('#myModal').trigger('focus')
     })
 
+    $("p").dblclick(function(){
+        $(this).hide();
+        });
 
-})
+    $("i").dblclick(function () {
+        $("p").show();
+        
+    });
+
+
+
+});
 
