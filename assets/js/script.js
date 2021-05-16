@@ -33,7 +33,10 @@ $(document).ready(function () {
         
     });
 
-
+    $("img").dblclick(function () {
+        $("p").show()
+        
+    })
 
 });
 
